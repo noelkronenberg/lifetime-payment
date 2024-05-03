@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifetime Payment</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            height: 100%;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7f7f7;
+        }
+
+        p, form, input {
+            font-size: 18px;
+        }
+
+        button {
+            font-size: 16px;
+        }
+        
+        form {
+            width: 100%;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555555;
+        }
+
+        input {
+            width: 100%;
+        }
+        
+        input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        button[type="submit"] {
+            padding: 12px;
+            background-color: rgb(67, 134, 245);
+            transition: background-color 0.3s ease;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="wageForm">
+        <label for="hourlyWage">Hourly Wage:</label>
+        <input type="number" id="hourlyWage" name="hourlyWage" step="1.0" required>
+        <button type="submit" id="activateButton">Activate</button>
+    </form>
+
+    <script src="replace.js"></script>
+</body>
+</html>
