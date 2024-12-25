@@ -4,8 +4,8 @@ Chrome extension to display prices as lifetime cost based on hourly wage.
 
 ## Set-up
 
-1. [download](https://github.com/noelkronenberg/lifetime-payment/archive/refs/heads/main.zip) extension
-2. [load](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) extension into Chrome
+1. [Download](https://github.com/noelkronenberg/lifetime-payment/archive/refs/heads/main.zip) extension
+2. [Load](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) extension into Chrome
 
 ## Showcase
 
