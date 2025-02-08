@@ -11,3 +11,4 @@ Chrome extension to display prices as lifetime cost based on hourly wage.
 
 https://github.com/noelkronenberg/lifetime-payment/assets/79874249/b3c46c1e-e4a7-4776-99bb-4799635584ca
 
+> This video is for demonstration purposes only. No affiliation with Apple Inc. exists.
